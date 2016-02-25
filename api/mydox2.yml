@@ -1,0 +1,31 @@
+items:
+- uid: mydox2
+  id: mydox2
+  children:
+  - mydox2.Class1
+  - mydox2.Class1.InnerClass
+  langs:
+  - csharp
+  - vb
+  name: mydox2
+  fullName: mydox2
+  type: Namespace
+  source:
+    path: D:\DocFxSource\docfx_project\src\mydox2\mydox2\Program.cs
+    startLine: 6
+  assemblies:
+  - mydox2
+references:
+- uid: mydox2.Class1
+  isExternal: false
+  name: Class1
+  fullName: mydox2.Class1
+- uid: mydox2.Class1.InnerClass
+  parent: mydox2
+  isExternal: false
+  name: Class1.InnerClass
+  fullName: mydox2.Class1.InnerClass
+- uid: mydox2
+  isExternal: false
+  name: mydox2
+  fullName: mydox2

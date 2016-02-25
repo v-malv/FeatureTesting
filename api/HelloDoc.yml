@@ -1,0 +1,31 @@
+items:
+- uid: HelloDoc
+  id: HelloDoc
+  children:
+  - HelloDoc.Class2
+  - HelloDoc.Class2.InnerClass
+  langs:
+  - csharp
+  - vb
+  name: HelloDoc
+  fullName: HelloDoc
+  type: Namespace
+  source:
+    path: D:\DocFxSource\docfx_project\src\HelloDoc\HelloDoc\Program.cs
+    startLine: 6
+  assemblies:
+  - HelloDoc
+references:
+- uid: HelloDoc.Class2
+  isExternal: false
+  name: Class2
+  fullName: HelloDoc.Class2
+- uid: HelloDoc.Class2.InnerClass
+  parent: HelloDoc
+  isExternal: false
+  name: Class2.InnerClass
+  fullName: HelloDoc.Class2.InnerClass
+- uid: HelloDoc
+  isExternal: false
+  name: HelloDoc
+  fullName: HelloDoc
