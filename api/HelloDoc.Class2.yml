@@ -1,0 +1,371 @@
+items:
+- uid: HelloDoc.Class2
+  id: Class2
+  parent: HelloDoc
+  children:
+  - HelloDoc.Class2.#ctor(System.Int32)
+  - HelloDoc.Class2.ConvertToDouble
+  - HelloDoc.Class2.SetInnerClass(System.String,HelloDoc.Class2.InnerClass)
+  - HelloDoc.Class2.Value
+  langs:
+  - csharp
+  - vb
+  name: Class2
+  fullName: HelloDoc.Class2
+  type: Class
+  source:
+    path: D:\DocFxSource\docfx_project\src\HelloDoc\HelloDoc\Class2.cs
+    startLine: 12
+  assemblies:
+  - HelloDoc
+  namespace: HelloDoc
+  summary: Hello this is **Class1** from *HelloDocfx*
+  example: []
+  syntax:
+    content: public class Class2
+    content.vb: Public Class Class2
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: HelloDoc.Class2.Value
+  id: Value
+  parent: HelloDoc.Class2
+  langs:
+  - csharp
+  - vb
+  name: Value
+  fullName: HelloDoc.Class2.Value
+  type: Property
+  source:
+    path: D:\DocFxSource\docfx_project\src\HelloDoc\HelloDoc\Class2.cs
+    startLine: 15
+  assemblies:
+  - HelloDoc
+  namespace: HelloDoc
+  syntax:
+    content: public int Value { get; }
+    content.vb: Public ReadOnly Property Value As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: HelloDoc.Class2.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: HelloDoc.Class2
+  langs:
+  - csharp
+  - vb
+  name: Class2(Int32)
+  fullName: HelloDoc.Class2.Class2(System.Int32)
+  type: Constructor
+  source:
+    path: D:\DocFxSource\docfx_project\src\HelloDoc\HelloDoc\Class2.cs
+    startLine: 21
+  assemblies:
+  - HelloDoc
+  namespace: HelloDoc
+  summary: This is a ctor
+  example: []
+  syntax:
+    content: public Class2(int value)
+    content.vb: Public Sub New(value As Integer)
+    parameters:
+    - id: value
+      type: System.Int32
+      description: The value of the class
+- uid: HelloDoc.Class2.ConvertToDouble
+  id: ConvertToDouble
+  parent: HelloDoc.Class2
+  langs:
+  - csharp
+  - vb
+  name: ConvertToDouble()
+  fullName: HelloDoc.Class2.ConvertToDouble()
+  type: Method
+  source:
+    path: D:\DocFxSource\docfx_project\src\HelloDoc\HelloDoc\Class2.cs
+    startLine: 26
+  assemblies:
+  - HelloDoc
+  namespace: HelloDoc
+  syntax:
+    content: public double ConvertToDouble()
+    content.vb: Public Function ConvertToDouble As Double
+    return:
+      type: System.Double
+- uid: HelloDoc.Class2.SetInnerClass(System.String,HelloDoc.Class2.InnerClass)
+  id: SetInnerClass(System.String,HelloDoc.Class2.InnerClass)
+  parent: HelloDoc.Class2
+  langs:
+  - csharp
+  - vb
+  name: SetInnerClass(String, Class2.InnerClass)
+  fullName: HelloDoc.Class2.SetInnerClass(System.String, HelloDoc.Class2.InnerClass)
+  type: Method
+  source:
+    path: D:\DocFxSource\docfx_project\src\HelloDoc\HelloDoc\Class2.cs
+    startLine: 36
+  assemblies:
+  - HelloDoc
+  namespace: HelloDoc
+  summary: A method referencing a inner class
+  example: []
+  syntax:
+    content: public void SetInnerClass(string name, Class2.InnerClass inner)
+    content.vb: Public Sub SetInnerClass(name As String, inner As Class2.InnerClass)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name
+    - id: inner
+      type: HelloDoc.Class2.InnerClass
+      description: A inner class with type <xref href="HelloDoc.Class2.InnerClass" data-throw-if-not-resolved="false"></xref>
+references:
+- uid: HelloDoc
+  isExternal: false
+  name: HelloDoc
+  fullName: HelloDoc
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  fullName: System.Int32
+- uid: System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  fullName: System.Double
+- uid: HelloDoc.Class2.InnerClass
+  parent: HelloDoc
+  isExternal: false
+  name: Class2.InnerClass
+  fullName: HelloDoc.Class2.InnerClass
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  fullName: System.String
