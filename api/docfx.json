@@ -1,15 +1,19 @@
 {
   "build": {
-    "content": [
+   "content": [
       {
         "files": [
           "**/*.yml"
         ],
+        "dest": "api"
+      },
+      {
+        "files": [
+          "**/*.md",
+        ],
         "exclude": [
           "**/obj/**"
-        ],
-        "src": null,
-        "dest": "api"
+        ]
       }
     ],
     "resource": [
