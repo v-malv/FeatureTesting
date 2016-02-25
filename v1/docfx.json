@@ -5,7 +5,7 @@
         "files": [
           "**/*.yml"
         ],
-        "dest": "api"
+        "dest": "v1"
       },
       {
         "files": [
@@ -36,6 +36,6 @@
     "template": [
       "op.html"
     ],
-    "dest": "api"
+    "dest": "v1"
   }
 }
