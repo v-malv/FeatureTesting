@@ -9,7 +9,7 @@
           "**/obj/**"
         ],
         "src": null,
-        "dest": null
+        "dest": "api"
       }
     ],
     "resource": [
