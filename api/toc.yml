@@ -1,3 +1,7 @@
-
-- name: TO BE REPLACED
-- href: index.md
+- uid: HelloDoc
+  name: HelloDoc
+  items:
+  - uid: HelloDoc.Class2
+    name: Class2
+  - uid: HelloDoc.Class2.InnerClass
+    name: Class2.InnerClass
